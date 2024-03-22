@@ -1,0 +1,22 @@
+.nav ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    list-style: none;
+    margin-right: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20.91px;
+    font-weight: bold;
+    line-height: 25.07px;
+}
+.button {
+    border: 0;
+    border-radius: 15px;
+    background: #34eed9;
+    color: #070707;
+    padding: 8px 16px;
+    transform: rotate(-5deg);
+    margin-bottom: 20px;
+    margin-top: -12px;
+}
