@@ -1,16 +1,12 @@
 import React from 'react';
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
+import styles from './header.module.css'
 
 
 const Header = () => {
     return (
-        <div style={{
-            display: 'flex',
-            width: '100%',
-            minHeight: '128px',
-            justifyContent: 'space-between',
-        }}>
+        <div className={styles.container}>
             <Logo/>
             <Nav />
         </div>

@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'custom-font';
+    src: url("assets/fonts/2237-font.otf") format('opentype');
+}
+
 body {
+    font-family: custom-font;
     padding: 0;
     margin: 0;
 }
