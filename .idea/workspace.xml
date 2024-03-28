@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create Clients block">
-      <change afterPath="$PROJECT_DIR$/src/app/components/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create Footer block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Clients/Clients.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Clients/Clients.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Main/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Main/main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/OverlayImage/overlayImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/OverlayImage/overlayImage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +21,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/node_modules/slick-carousel/slick/slick-theme.css" root0="SKIP_INSPECTION" />
@@ -93,7 +105,7 @@
       <workItem from="1711452901561" duration="9028000" />
       <workItem from="1711464987249" duration="61000" />
       <workItem from="1711536631101" duration="4329000" />
-      <workItem from="1711614922296" duration="11285000" />
+      <workItem from="1711614922296" duration="16574000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -123,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711616778776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create Footer block">
+      <created>1711629106611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711629106611</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +164,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="save commit" />
     <MESSAGE value="create Clients block" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Clients block" />
+    <MESSAGE value="create Footer block" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Footer block" />
   </component>
 </project>

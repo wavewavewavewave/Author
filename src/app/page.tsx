@@ -17,7 +17,7 @@ const Home = () => {
             <Examples/>
             <Services/>
             <Clients/>
-            <Footer />
+            <Footer/>
         </div>
     );
 };

@@ -20,7 +20,7 @@ import alfa from "../assets/Payments/Alfabank_logo 1.svg";
 import qiwi from "../assets/Payments/1280px-QIWI_logo 1.svg";
 import sber from "../assets/Payments/Sberbank_Logo_2020 1.svg";
 
-export const examples = ['Готовы', 'Воплотить', 'Все', 'Ваши', 'Идеи', 'В жизнь']
+export const examples_text = ['Готовы', 'Воплотить', 'Все', 'Ваши', 'Идеи', 'В жизнь']
 
 export const clients_array = [
     {id: 0, value: mahorka, alt: 'Махорка'},

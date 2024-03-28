@@ -14,7 +14,7 @@ const Main = () => {
             color: 'white'
         }}>
             <div className={styles.textBlock}>
-                <span className={styles.h1}>Производим</span>
+                <h1 className={styles.h1}>Производим</h1>
                 <h2 className={styles.h2}>рекламу</h2>
                 <h3 className={styles.h3}>13 лет</h3>
                 <Image src={marker} alt={'Маркер'} className={styles.image}/>
