@@ -5,6 +5,7 @@ import OverlayImage from "./components/OverlayImage/OverlayImage";
 import Examples from "./components/Examples/Examples";
 import Services from "./components/Services/Services";
 import Clients from "./components/Clients/Clients";
+import Footer from "./components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Examples/>
             <Services/>
             <Clients/>
+            <Footer />
         </div>
     );
 };

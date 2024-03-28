@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/799px-Logo_Milavitsa-removebg-preview 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/Group 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Clients/image 9.svg" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create Clients block">
+      <change afterPath="$PROJECT_DIR$/src/app/components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Clients/Clients.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Clients/Clients.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Clients/clients.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Clients/clients.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +93,7 @@
       <workItem from="1711452901561" duration="9028000" />
       <workItem from="1711464987249" duration="61000" />
       <workItem from="1711536631101" duration="4329000" />
-      <workItem from="1711614922296" duration="1792000" />
+      <workItem from="1711614922296" duration="11285000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -125,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711461997359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create Clients block">
+      <created>1711616778776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711616778776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="save commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="save commit" />
+    <MESSAGE value="create Clients block" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Clients block" />
   </component>
 </project>
