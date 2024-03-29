@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit">
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="refactor code">
       <change afterPath="$PROJECT_DIR$/src/app/components/Header/Header..css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -112,7 +112,7 @@
       <workItem from="1711614922296" duration="16794000" />
       <workItem from="1711635005573" duration="56000" />
       <workItem from="1711636551735" duration="316000" />
-      <workItem from="1711709448065" duration="9096000" />
+      <workItem from="1711709448065" duration="9399000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711634494282</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor code">
+      <created>1711719985143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711719985143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +186,7 @@
     <MESSAGE value="create Clients block" />
     <MESSAGE value="create Footer block" />
     <MESSAGE value="save commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="save commit" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
