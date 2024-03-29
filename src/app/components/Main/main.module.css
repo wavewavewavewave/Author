@@ -1,3 +1,7 @@
+.container {
+    width: 100%;
+    color: white
+}
 .h1, .h2, .h3 {
     color: #FFF;
     font-style: normal;
@@ -31,7 +35,7 @@
     font-size: 21px;
     font-weight: 400;
 }
-.container {
+.container_text {
     position: absolute;
     margin-top: -70px;
 }
@@ -60,4 +64,55 @@
     bottom: -354px;
     right: 100px;
     width: 250px;
+}
+@media screen and (max-width: 1150px) {
+    .hand_one {
+        display: none;
+    }
+    .hand_two {
+        display: none;
+    }
+    .textBlock {
+        margin-left: 200px;
+    }
+    .image {
+        left: 200px;
+    }
+}
+@media screen and (max-width: 930px) {
+    .textBlock {
+        margin-left: 50px;
+    }
+    .image {
+        left: 30px;
+        top: 320px;
+        width: 140px
+    }
+    .h1, .h2, .h3 {
+        color: #FFF;
+        font-style: normal;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .h2 {
+        margin-top: -20px;
+    }
+
+    .h3 {
+        margin-top: -20px;
+    }
+    .container_text {
+        margin-top: -10px;
+    }
+    .button {
+        margin-top: 110px
+    }
+}
+@media screen and (max-width: 414px) {
+    .h1, .h2, .h3 {
+        color: #FFF;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 600;
+    }
 }

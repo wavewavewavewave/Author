@@ -12,12 +12,12 @@ const Home = () => {
         <div>
             <OverlayImage>
                 <Header/>
-                {/*<Main/>*/}
+                <Main/>
             </OverlayImage>
-            {/*<Examples/>
-            <Services/>
-            <Clients/>
-            <Footer/>*/}
+            <Examples/>
+            {/*<Services/>*/}
+            {/*<Clients/>*/}
+            {/*<Footer/>*/}
         </div>
     );
 };

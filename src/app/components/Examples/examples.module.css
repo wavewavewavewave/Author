@@ -12,6 +12,7 @@
     color: white;
     margin-top: 430px
 }
+
 .textBlock {
     display: flex;
     flex-direction: column;
@@ -24,8 +25,15 @@
     font-size: 50px;
     letter-spacing: -2px;
 }
+
 .imageConnected {
     position: absolute;
     margin-top: 800px;
     margin-left: 650px
+}
+
+@media screen and (max-width: 1150px) {
+    .textContainer {
+        left: 100px
+    }
 }

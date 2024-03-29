@@ -5,6 +5,7 @@ import {IoClose} from "react-icons/io5";
 
 const Nav = ({closeMenuOnMobile, toggleMenu}) => {
     return (
+
         <ul className="nav__list">
             {nav_array.map((item, index) => (
                 <>

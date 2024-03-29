@@ -9,16 +9,13 @@ import hand2 from '../../assets/hand2.svg'
 const Main = () => {
 
     return (
-        <div style={{
-            width: '100%',
-            color: 'white'
-        }}>
+        <div className={styles.container}>
             <div className={styles.textBlock}>
                 <h1 className={styles.h1}>Производим</h1>
                 <h2 className={styles.h2}>рекламу</h2>
                 <h3 className={styles.h3}>13 лет</h3>
                 <Image src={marker} alt={'Маркер'} className={styles.image}/>
-                <div className={styles.container}>
+                <div className={styles.container_text}>
                     <div className={styles.text}>Мы креативная команда,</div>
                     <div className={styles.text}>готовая воплотить все ваши идеи в жизнь</div>
                 </div>
