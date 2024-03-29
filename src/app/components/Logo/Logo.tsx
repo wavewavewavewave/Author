@@ -1,15 +1,15 @@
 import React from 'react';
 import Image from "next/image";
 import logo from '../../assets/logo.svg'
-import styles from './logo.module.css'
+import'./Logo.css'
 
 const Logo = () => {
     return (
-        <div className={styles.block}>
-            <a>
+        <>
+            <a className={'nav__logo'}>
                 <Image src={logo} alt={'Logo'} />
             </a>
-        </div>
+        </>
     );
 };
 

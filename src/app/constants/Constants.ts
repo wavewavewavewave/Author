@@ -46,3 +46,10 @@ export const payments_icon = [
     {id: 6, value: qiwi, alt: 'Киви'},
     {id: 7, value: sber, alt: 'Сбер'}
 ]
+export const nav_array = [
+    {id: 0, value: 'О нас'},
+    {id: 1, value: 'Портфолио'},
+    {id: 2, value: 'Услуги'},
+    {id: 3, value: 'Контакты'},
+    {id: 4, value: 'Позвонить'},
+]

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create Footer block">
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit">
+      <change afterPath="$PROJECT_DIR$/src/app/components/Header/Header..css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Main/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Main/main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Logo/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Logo/logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Logo/Logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Nav/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Nav/Nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/OverlayImage/overlayImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/OverlayImage/overlayImage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../УЧЕБНЫЙ КУРС(РАБОТА)/Продвинутый_React/lesson_4/my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../coolpass_prague/my-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -105,7 +109,10 @@
       <workItem from="1711452901561" duration="9028000" />
       <workItem from="1711464987249" duration="61000" />
       <workItem from="1711536631101" duration="4329000" />
-      <workItem from="1711614922296" duration="16574000" />
+      <workItem from="1711614922296" duration="16794000" />
+      <workItem from="1711635005573" duration="56000" />
+      <workItem from="1711636551735" duration="316000" />
+      <workItem from="1711709448065" duration="9096000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -142,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711629106611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="save commit">
+      <created>1711634494282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711634494282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,9 +176,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="save commit" />
     <MESSAGE value="create Clients block" />
     <MESSAGE value="create Footer block" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Footer block" />
+    <MESSAGE value="save commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="save commit" />
   </component>
 </project>

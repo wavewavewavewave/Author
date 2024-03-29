@@ -1,17 +1,25 @@
 import React from 'react';
-import styles from './nav.module.css'
+import'./Nav.css'
+import {nav_array} from "../../constants/Constants";
+import {IoClose} from "react-icons/io5";
 
-const Nav = () => {
+const Nav = ({closeMenuOnMobile, toggleMenu}) => {
     return (
-        <nav className={styles.nav}>
-            <ul>
-                <li>О нас</li>
-                <li>Портфолио</li>
-                <li>Услуги</li>
-                <li>Контакты</li>
-                <li className={styles.button}>Позвонить</li>
-            </ul>
-        </nav>
+        <ul className="nav__list">
+            {nav_array.map((item, index) => (
+                <>
+                    <li key={item.id} className={index === nav_array.length - 1 ? 'button' : ''}>
+                        <a className={index === nav_array.length - 1 ? '' : 'nav__link'}
+                           onClick={closeMenuOnMobile}>
+                            {item.value}
+                        </a>
+                    </li>
+                    <div className="nav__close" id="nav-close" onClick={toggleMenu}>
+                        <IoClose/>
+                    </div>
+                </>
+            ))}
+        </ul>
     );
 };
 
