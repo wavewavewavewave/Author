@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit, work on adaptive">
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="import services images">
+      <change afterPath="$PROJECT_DIR$/src/app/assets/signs_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/SignsBackgroundImage/SignsBackgroundImage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/services/signs/Signs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Services/Services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Services/services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Services/services.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contacts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/contacts/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/portfolio/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/portfolio/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -56,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Author\author\src\app\pages" />
       <recent name="D:\Author\author\src\app\assets" />
     </key>
   </component>
@@ -102,7 +113,7 @@
       <workItem from="1711636551735" duration="316000" />
       <workItem from="1711709448065" duration="14027000" />
       <workItem from="1711964243373" duration="341000" />
-      <workItem from="1712058800436" duration="1649000" />
+      <workItem from="1712058800436" duration="7375000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -167,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711725067516</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="import services images">
+      <created>1712061133221</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712061133221</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +210,7 @@
     <MESSAGE value="save commit" />
     <MESSAGE value="refactor code" />
     <MESSAGE value="save commit, work on adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="save commit, work on adaptive" />
+    <MESSAGE value="import services images" />
+    <option name="LAST_COMMIT_MESSAGE" value="import services images" />
   </component>
 </project>

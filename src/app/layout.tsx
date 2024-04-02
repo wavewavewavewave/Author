@@ -1,14 +1,10 @@
-import type {Metadata, Viewport} from "next";
+import type {Metadata} from "next";
 import {Electrolize, Inter} from "next/font/google";
 import "./globals.css";
-import Head from 'next/head'
+import Header from "./components/Header/Header";
 
 const inter = Inter({subsets: ["latin"]});
 const electrolize = Electrolize({weight: '400', preload: false})
-
-export const viewport: Viewport = {
-    width: 'width=1024'
-}
 
 export const metadata: Metadata = {
     title: "Author",
@@ -22,10 +18,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ru" className={electrolize.className}>
-        <Head>
-            <meta name="viewport" content="width=1024" />
-        </Head>
-        <body>{children}</body>
+        <body>
+        {children}
+        </body>
         </html>
     );
 }
