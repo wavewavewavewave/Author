@@ -1,11 +1,15 @@
 import React from 'react';
-import Header from "../../../components/Header/Header";
 import './Signs.css'
+
 
 const Signs = () => {
     return (
-        <div className={'containerImageBlock'}>
-            <Header/>
+        <div>
+            {/*<Header/>*/}
+            <h1>Signs</h1>
+            <h1>Signs</h1>
+            <h1>Signs</h1>
+            <h1>Signs</h1>
             <h1>Signs</h1>
         </div>
     );

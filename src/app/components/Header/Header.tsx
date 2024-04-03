@@ -6,7 +6,7 @@ import {IoMenu} from "react-icons/io5";;
 import Nav from "../Nav/Nav";
 
 
-const Header = () => {
+const Header = ({services}) => {
     const [showMenu, setShowMenu] = useState(false);
 
     const toggleMenu = () => {
@@ -22,9 +22,9 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <Logo/>
+                <Logo services={services}/>
                 <div className={`nav__menu ${showMenu ? "show-menu" : ""}`} id="nav-menu">
-                    <Nav closeMenuOnMobile={closeMenuOnMobile} toggleMenu={toggleMenu}/>
+                    <Nav closeMenuOnMobile={closeMenuOnMobile} toggleMenu={toggleMenu} services={services}/>
                 </div>
                 <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
                     <IoMenu/>
