@@ -16,8 +16,6 @@
 .box {
     width: 356px;
     height: 338px;
-    top: 238px;
-    left: 217px;
     border: 1px solid #b4b0b0;
     display: flex;
     justify-content: center;

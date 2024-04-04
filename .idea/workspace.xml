@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit">
+      <change afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/cat1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/Cats_contact/cat1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
@@ -23,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="signs_page" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -59,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Author\author\src\app\assets\Cats_contact" />
       <recent name="D:\Author\author\src\app\pages" />
       <recent name="D:\Author\author\src\app\assets" />
     </key>
