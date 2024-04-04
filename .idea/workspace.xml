@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create Light Boxes page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/LightBoxes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +102,7 @@
       <workItem from="1711964243373" duration="341000" />
       <workItem from="1712058800436" duration="7719000" />
       <workItem from="1712133268034" duration="15625000" />
-      <workItem from="1712221265061" duration="1792000" />
+      <workItem from="1712221265061" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -193,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712153589997</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="save commit">
+      <created>1712223903201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712223903201</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,8 +220,8 @@
     <MESSAGE value="refactor code" />
     <MESSAGE value="save commit, work on adaptive" />
     <MESSAGE value="import services images" />
-    <MESSAGE value="save commit" />
     <MESSAGE value="create Light Boxes page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Light Boxes page" />
+    <MESSAGE value="save commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="save commit" />
   </component>
 </project>
