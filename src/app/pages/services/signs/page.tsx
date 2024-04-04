@@ -1,5 +1,5 @@
 import React from 'react';
-import './Signs.css'
+import styles from './signs.module.css'
 
 
 const Signs = () => {

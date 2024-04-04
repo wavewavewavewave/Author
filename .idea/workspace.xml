@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create Light Boxes page">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Vector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/cat1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/color_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Logo/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Services/Services.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/SignsBackgroundImage/SignsBackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/LightBoxes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/Signs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/Signs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/LightBoxes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +106,8 @@
       <workItem from="1711709448065" duration="14027000" />
       <workItem from="1711964243373" duration="341000" />
       <workItem from="1712058800436" duration="7719000" />
-      <workItem from="1712133268034" duration="15202000" />
+      <workItem from="1712133268034" duration="15625000" />
+      <workItem from="1712221265061" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -194,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712068666906</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create Light Boxes page">
+      <created>1712153589997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712153589997</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

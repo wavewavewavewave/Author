@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-span {
+.text {
     width: 300px;
     font-weight: 400;
     text-align: center;

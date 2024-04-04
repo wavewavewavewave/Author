@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import Logo from "../Logo/Logo";
 import './Header..css'
-import {IoMenu} from "react-icons/io5";;
+import {IoMenu} from "react-icons/io5";
 import Nav from "../Nav/Nav";
 
 
@@ -27,7 +27,7 @@ const Header = ({services}) => {
                     <Nav closeMenuOnMobile={closeMenuOnMobile} toggleMenu={toggleMenu} services={services}/>
                 </div>
                 <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
-                    <IoMenu/>
+                    <IoMenu color={services === true ? 'black' : 'white'}/>
                 </div>
             </nav>
         </header>
