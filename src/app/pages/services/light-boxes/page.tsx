@@ -2,10 +2,10 @@
 import React from 'react';
 import Header from "../../../components/Header/Header";
 import styles from './lightBoxes.module.css'
-import {light_boxes_service_arr} from "../../../constants/Constants";
 import arrow from '../../../assets/Vector.svg'
 import cat from '../../../assets/cat1.svg'
 import Image from "next/image";
+import {light_boxes_service_arr} from "../../../constants/Constants";
 
 const LightBoxes = () => {
     return (
