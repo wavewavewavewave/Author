@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    min-height: 1000px;
+    background-color: #000000
+}
+
+.textContainer {
+    width: 300px;
+    height: 350px;
+    left: 260px;
+    position: absolute;
+    color: white;
+    margin-top: 430px
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    width: 323px
+}
+
+.spanText {
+    width: 260px;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.imageConnected {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 650px
+}
+
+@media screen and (max-width: 1150px) {
+    .textContainer {
+        left: 100px
+    }
+}
