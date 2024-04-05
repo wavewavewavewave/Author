@@ -1,7 +1,7 @@
 'use client'
 import React, {useState} from 'react';
 import Logo from "../Logo/Logo";
-import './Header..css'
+import './Header.css'
 import {IoMenu} from "react-icons/io5";
 import Nav from "../Nav/Nav";
 

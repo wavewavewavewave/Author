@@ -184,3 +184,7 @@ export const format_printing_arr = [
     {id: 36, value: 'УФ печать на коже'},
     {id: 37, value: 'Срочная широкоформатная печать'},
 ]
+export const roof_installations_arr = [
+    {id: 0, value: 'Крышнеые установки'},
+    {id: 1, value: 'Световые крышные установки'},
+]
