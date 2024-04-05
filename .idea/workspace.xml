@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ Slider/slider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ Slider/slider.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" afterDir="false" />
     </list>
@@ -247,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712236258321</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="save commit">
+      <created>1712320962380</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712320962380</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,8 +277,8 @@
     <MESSAGE value="import services images" />
     <MESSAGE value="create Light Boxes page" />
     <MESSAGE value="merge branch" />
-    <MESSAGE value="save commit" />
     <MESSAGE value="create format_printing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create format_printing page" />
+    <MESSAGE value="save commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="save commit" />
   </component>
 </project>

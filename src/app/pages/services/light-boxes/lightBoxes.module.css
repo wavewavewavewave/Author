@@ -2,9 +2,10 @@
     width: 100%;
     min-height: 100%;
     padding-bottom: 50px;
+    position: relative;
 }
 .container_boxes {
-    margin-left: 50px
+    margin-left: 70px
 }
 
 .boxes_block {
@@ -39,4 +40,20 @@
     width: 750px;
     height: 290px;
     margin-top: 50px;
+}
+.no_background {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -300px;
+    right: 0;
+}
+@media screen and (max-width: 670px) {
+    .no_background {
+        position: static;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
 }

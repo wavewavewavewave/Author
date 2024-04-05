@@ -22,7 +22,9 @@ const LightBoxes = () => {
                             </div>
                         </div>
                     ))}
+                    <button className={styles.no_background}>
                         <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
+                    </button>
                 </div>
             </div>
         </div>
