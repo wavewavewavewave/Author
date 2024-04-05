@@ -14,9 +14,9 @@ const Footer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.imageContainer}>
-                <Image src={line} alt={'Линия'} width={1450}/>
+                <Image src={line} alt={'Линия'}/>
                 <div className={styles.logo}>
-                    <Image src={logo} alt={'Лого'} width={250}/>
+                    <Image src={logo} alt={'Лого'} />
                 </div>
             </div>
             <div className={styles.contactBlock}>
