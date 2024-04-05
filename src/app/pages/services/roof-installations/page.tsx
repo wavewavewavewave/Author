@@ -24,9 +24,9 @@ const RoofInstallations = () => {
                     ))}
                 </div>
             </div>
-            {/*<button className={styles.no_background}>*/}
+            <button className={styles.no_background}>
                 <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
-            {/*</button>*/}
+            </button>
         </div>
     );
 };

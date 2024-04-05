@@ -9,17 +9,17 @@ import {examples_text} from "../../constants/Constants";
 const Examples = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.textContainer}>
-                <div className={styles.textBlock}>
-                    {examples_text.map((text, index) => (
-                        <span key={index} className={styles.spanText} style={{ whiteSpace: 'nowrap' }}>{text}</span>
-                    ))}
+                <div className={styles.textContainer}>
+                    <div className={styles.textBlock}>
+                        {examples_text.map((text, index) => (
+                            <span key={index} className={styles.spanText} style={{whiteSpace: 'nowrap'}}>{text}</span>
+                        ))}
+                    </div>
                 </div>
-            </div>
-            <SimpleSlider/>
-            <div className={styles.imageConnected}>
-                <Image src={arrow} alt={'Стрелка'}/>
-            </div>
+                <SimpleSlider/>
+                <div className={styles.imageConnected}>
+                    <Image src={arrow} alt={'Стрелка'}/>
+                </div>
         </div>
     );
 };

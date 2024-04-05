@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create format_printing page">
-      <change afterPath="$PROJECT_DIR$/public/img_viber_2024-02-12_11-40-19-814.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="save commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header/Header..css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ Slider/slider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ Slider/slider.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/Examples.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Examples/examples.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

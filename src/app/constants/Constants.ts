@@ -78,7 +78,7 @@ export const services_array = [
     {id: 0, value: light_boxes, alt: 'Световые короба', href: '/pages/services/light-boxes'},
     {id: 1, value: signs, alt: 'Вывески', href: '/pages/services/signs'},
     {id: 2, value: large_format_printing, alt: 'Широкоформатная печать', href: '/pages/services/large-format-printing'},
-    {id: 3, value: roof_installations, alt: 'Крышные установки', href: '/pages/services/signs'},
+    {id: 3, value: roof_installations, alt: 'Крышные установки', href: '/pages/services/roof-installations'},
     {id: 4, value: interior_designs, alt: 'Интерьерное оформление', href: '/pages/services/signs'},
     {id: 5, value: volumetric_letters, alt: 'Обьемные буквы', href: '/pages/services/signs'},
     {id: 6, value: advertising_signs, alt: 'Рекламные штендеры', href: '/pages/services/signs'},

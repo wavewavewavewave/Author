@@ -9,7 +9,8 @@ import {signs_array} from "../../../constants/Constants";
 
 
 const Signs = () => {
-
+console.log(window.innerWidth, '?????')
+console.log(window.innerHeight, '?????')
     return (
         <div className={styles.container_page}>
             <Header services={true}/>

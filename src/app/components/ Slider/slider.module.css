@@ -3,5 +3,20 @@
     margin-top: 430px;
     width: 600px;
     height: 350px;
-    left: 650px
+    left: 810px
+}
+@media screen and (max-width: 1500px) {
+    .container {
+        left: 700px
+    }
+}
+@media screen and (max-width: 1436px) {
+    .container {
+        left: 600px
+    }
+}
+@media screen and (max-width: 1300px) {
+    .container {
+        left: 500px
+    }
 }
