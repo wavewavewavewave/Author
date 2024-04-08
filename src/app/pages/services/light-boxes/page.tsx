@@ -5,7 +5,7 @@ import styles from './lightBoxes.module.css'
 import arrow from '../../../assets/Vector.svg'
 import cat from '../../../assets/Cats_contact/cat1.svg'
 import Image from "next/image";
-import {light_boxes_service_arr} from "../../../constants/Constants";
+import {light_boxes_service_arr} from "../../../constants/PagesConstants/Light-boxes/constants";
 
 const LightBoxes = () => {
     const [isHovered, setIsHovered] = useState(null);
@@ -32,7 +32,7 @@ const LightBoxes = () => {
                             >
                                 <span className={styles.text}>{box.value}</span>
                                 <Image src={arrow} alt={'Стрелка'} className={styles.image_style}/>
-                                <Image src={box.image} alt={'Light'} className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
+                                <Image src={box.image} alt={'Изображение товара'} className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
                             </div>
                         </div>
                     ))}

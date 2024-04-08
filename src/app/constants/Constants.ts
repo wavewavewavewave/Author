@@ -40,20 +40,6 @@ import engraving from "../assets/Services/image18.svg";
 import threeD_modeling from "../assets/Services/image19.svg";
 import souvenir_products from "../assets/Services/image20.svg";
 import design_services from "../assets/Services/image21.svg";
-import image1 from '../assets/Pages/Light-boxes/image 35 (1).jpg'
-import image2 from '../assets/Pages/Light-boxes/image 36.jpg'
-import image3 from '../assets/Pages/Light-boxes/тканевые короба 1.jpg'
-import image4 from '../assets/Pages/Light-boxes/image 37.jpg'
-import image5 from '../assets/Pages/Light-boxes/image 43.jpg'
-import image6 from '../assets/Pages/Light-boxes/image 38.jpg'
-import image7 from '../assets/Pages/Light-boxes/image 49.jpg'
-import image8 from '../assets/Pages/Light-boxes/image 40.jpg'
-import image9 from '../assets/Pages/Light-boxes/image 41.jpg'
-import image10 from '../assets/Pages/Light-boxes/image 44.jpg'
-import image11 from '../assets/Pages/Light-boxes/image 45.jpg'
-import image12 from '../assets/Pages/Light-boxes/image 46.jpg'
-import image13 from '../assets/Pages/Light-boxes/image 47.jpg'
-import image14 from '../assets/Pages/Light-boxes/image 42.jpg'
 
 export const examples_text = ['Готовы', 'Воплотить', 'Все', 'Ваши', 'Идеи', 'В жизнь']
 
@@ -111,53 +97,8 @@ export const services_array = [
     {id: 19, value: souvenir_products, alt: 'Сувенирная продукция', href: '/pages/services/signs'},
     {id: 20, value: design_services, alt: 'Услуги дизайна', href: '/pages/services/signs'},
 ]
-export const light_boxes_service_arr = [
-    {id: 0, value: 'Лайтбоксы', image: image1},
-    {id: 1, value: 'Тонкие световые короба', image: image2},
-    {id: 2, value: 'Короба с тканевым лицом', image: image3},
-    {id: 3, value: 'Короба с инкрустрацией', image: image4},
-    {id: 4, value: 'Двухсторонние короба', image: image5},
-    {id: 5, value: 'Интерьерные короба', image: image6},
-    {id: 6, value: 'Композитные короба', image: image7},
-    {id: 7, value: 'Акриловые короба', image: image8},
-    {id: 8, value: 'Короба из поликорбоната', image: image9},
-    {id: 9, value: 'Фигурные короба', image: image10},
-    {id: 10, value: 'Световой короб для кафе', image: image11},
-    {id: 11, value: 'Световой короб для магазина', image: image12},
-    {id: 12, value: 'Уличные рекламные короба', image: image13},
-    {id: 13, value: 'Световой короб для салона красоты', image: image14},
-]
-export const signs_array = [
-    {id: 0, value: 'Неоновые вывески'},
-    {id: 1, value: 'Светодиодные вывески'},
-    {id: 2, value: 'Фасадные вывески'},
-    {id: 3, value: 'Обьемные вывески'},
-    {id: 4, value: 'Композитные вывески'},
-    {id: 5, value: 'Деревянные вывески'},
-    {id: 6, value: 'Разрешение на вывеску'},
-    {id: 7, value: 'Вывески Режим работы'},
-    {id: 8, value: 'Вывеска для кафе'},
-    {id: 9, value: 'Вывеска для бара'},
-    {id: 10, value: 'Вывеска для салона красоты'},
-    {id: 11, value: 'Вывески для парикмахерской'},
-    {id: 12, value: 'Вывески для барбершопа'},
-    {id: 13, value: 'Вывески для фастфуда'},
-    {id: 14, value: 'Вывески для аптеки'},
-    {id: 15, value: 'Вывески для ателье'},
-    {id: 16, value: 'Вывески для фитнес клуба'},
-    {id: 17, value: 'Вывески для ломбарда'},
-    {id: 18, value: 'Вывески для фитнес клуба'},
-    {id: 19, value: 'Вывески для гостиницы'},
-    {id: 20, value: 'Вывески для магазина'},
-    {id: 21, value: 'Вывески для автомагазина'},
-    {id: 22, value: 'Вывески для мебельноых магазинов'},
-    {id: 23, value: 'Вывески для зоомагазина'},
-    {id: 24, value: 'Вывески для магазина женской одежды'},
-    {id: 25, value: 'Вывески для цветочных магазинов'},
-    {id: 26, value: 'Вывески для шиномонтажа'},
-    {id: 27, value: 'Вывески для автосервиса'},
-    {id: 28, value: 'Аптечный крест'},
-]
+
+
 export const format_printing_arr = [
     {id: 0, value: 'Широкоформатная печать на ткани'},
     {id: 1, value: 'Широкоформатная печать на бумаге'},
