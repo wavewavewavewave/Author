@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Light-boxes/image 35 (1).jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +122,7 @@
       <workItem from="1712236501338" duration="190000" />
       <workItem from="1712240501768" duration="590000" />
       <workItem from="1712309119558" duration="6041000" />
+      <workItem from="1712570863339" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712321833540</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactor">
+      <created>1712324375131</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712324375131</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

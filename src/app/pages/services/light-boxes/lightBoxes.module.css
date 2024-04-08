@@ -49,6 +49,15 @@
     bottom: -300px;
     right: 0;
 }
+.imageBlock {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+.imageBlockEnter {
+    position: absolute;
+}
+
 @media screen and (max-width: 670px) {
     .no_background {
         position: static;
@@ -57,3 +66,4 @@
         cursor: pointer;
     }
 }
+
