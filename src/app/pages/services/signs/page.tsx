@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import styles from './signs.module.css'
 import arrow from '../../../assets/Vector.svg'
 import Header from "../../../components/Header/Header";
-import cat from '../../../assets/Cats_contact/cat1.svg'
+import cat from '../../../assets/Pages/Signs/Group 8.svg'
 import Image from "next/image";
 import {signs_array} from "../../../constants/PagesConstants/Signs/constants";
 

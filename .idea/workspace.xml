@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update light-boxes page">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 76.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 77.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/image 78.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/тату короб 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Light-boxes/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Signs/constants.ts" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update signs page">
+      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Light-boxes/Group 7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/Group 10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/image 79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/image 80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/Group 8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Large-format-printing/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Roof-installations/constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" afterDir="false" />
     </list>
@@ -153,7 +133,7 @@
       <workItem from="1712236501338" duration="190000" />
       <workItem from="1712240501768" duration="590000" />
       <workItem from="1712309119558" duration="6041000" />
-      <workItem from="1712570863339" duration="7596000" />
+      <workItem from="1712570863339" duration="9517000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -302,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712580929320</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update signs page">
+      <created>1712583776540</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712583776540</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +320,7 @@
     <MESSAGE value="save commit" />
     <MESSAGE value="refactor" />
     <MESSAGE value="update light-boxes page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update light-boxes page" />
+    <MESSAGE value="update signs page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update signs page" />
   </component>
 </project>

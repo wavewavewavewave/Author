@@ -3,9 +3,9 @@ import React from 'react';
 import styles from './formatPrinting.module.css'
 import cat from '../../../assets/Cats_contact/cat3.svg'
 import Header from "../../../components/Header/Header";
-import {format_printing_arr} from "../../../constants/Constants";
 import Image from "next/image";
 import arrow from "../../../assets/Vector.svg";
+import {format_printing_arr} from "../../../constants/PagesConstants/Large-format-printing/constants";
 
 const FormatPrinting = () => {
     return (

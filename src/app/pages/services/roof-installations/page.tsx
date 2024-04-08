@@ -1,13 +1,22 @@
 'use client'
-import React from 'react';
+import React, {useState} from 'react';
 import Header from "../../../components/Header/Header";
 import styles from './roof.module.css'
-import {roof_installations_arr} from "../../../constants/Constants";
 import Image from "next/image";
 import arrow from "../../../assets/Vector.svg";
-import cat from "../../../assets/Cats_contact/cat1.svg";
+import cat from "../../../assets/Pages/Roof-installations/Group 10.svg";
+import {roof_installations_arr} from "../../../constants/PagesConstants/Roof-installations/constants";
 
 const RoofInstallations = () => {
+    const [isHovered, setIsHovered] = useState(null);
+
+    const onMouseEnterHandler = (id) => {
+        setIsHovered(id)
+    }
+    const onMouseLeaveHandler = () => {
+        setIsHovered(null)
+    }
+
     return (
         <div className={styles.container_page}>
             <Header services={true}/>
@@ -16,9 +25,14 @@ const RoofInstallations = () => {
                 <div className={styles.boxes_block}>
                     {roof_installations_arr.map((box) => (
                         <div key={box.id} style={{position: 'relative'}}>
-                            <div className={styles.box}>
+                            <div className={styles.box}
+                                 onMouseEnter={() => onMouseEnterHandler(box.id)}
+                                 onMouseLeave={() => onMouseLeaveHandler()}
+                            >
                                 <span className={styles.text}>{box.value}</span>
                                 <Image src={arrow} alt={'Стрелка'} className={styles.image_style}/>
+                                <Image src={box.image} alt={'Изображение товара'}
+                                       className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
                             </div>
                         </div>
                     ))}
