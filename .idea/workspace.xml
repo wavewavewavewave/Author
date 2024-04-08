@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update signs page">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Light-boxes/Group 7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/Group 10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/image 79.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/image 80.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/Group 8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Large-format-printing/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Roof-installations/constants.ts" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update roof-installations page, refactor code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +119,7 @@
       <workItem from="1712236501338" duration="190000" />
       <workItem from="1712240501768" duration="590000" />
       <workItem from="1712309119558" duration="6041000" />
-      <workItem from="1712570863339" duration="9517000" />
+      <workItem from="1712570863339" duration="13656000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -289,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712583776540</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update roof-installations page, refactor code">
+      <created>1712585613504</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712585613504</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +314,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="update light-boxes page" />
     <MESSAGE value="update signs page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update signs page" />
+    <MESSAGE value="update roof-installations page, refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update roof-installations page, refactor code" />
   </component>
 </project>
