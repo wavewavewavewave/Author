@@ -1,52 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="refactor code">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/Group 8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 114.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 116.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 117.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 118.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 119.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 120.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 121.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Advertising-signs/image 123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/Group 11.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 82.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 83.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 84.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 85.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 86.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/image 88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/Group 12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 107.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 108.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 112.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/image 113.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/пвх буквы-new 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Volumetric-letters/световые буквы 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Advertising-signs/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Interior-designs/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Volumetric-letters/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/advertising-signs/advertising.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/advertising-signs/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/interior-designs/interior.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/interior-designs/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/volumetric-letters/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/volumetric-letters/volumetric.module.css" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create interior-designs, volumetric-letters, advertising-signs pages">
+      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Tables/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/services/tables/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/services/tables/tables.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Logo/Logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Logo/Logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Logo/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Nav/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -336,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712589755338</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="create interior-designs, volumetric-letters, advertising-signs pages">
+      <created>1712659000188</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712659000188</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +335,7 @@
     <MESSAGE value="update signs page" />
     <MESSAGE value="update roof-installations page, refactor code" />
     <MESSAGE value="refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+    <MESSAGE value="create interior-designs, volumetric-letters, advertising-signs pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="create interior-designs, volumetric-letters, advertising-signs pages" />
   </component>
 </project>

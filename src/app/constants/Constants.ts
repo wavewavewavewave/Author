@@ -26,7 +26,7 @@ import roof_installations from "../assets/Services/image4.svg";
 import interior_designs from "../assets/Services/image5.svg";
 import volumetric_letters from "../assets/Services/image6.svg";
 import advertising_signs from "../assets/Services/image7.svg";
-import signs2 from "../assets/Services/image8.svg";
+import tables from "../assets/Services/image8.svg";
 import life_figures from "../assets/Services/image9.svg";
 import advertising_stands from "../assets/Services/image10.svg";
 import exhibition_stands from "../assets/Services/image11.svg";
@@ -82,7 +82,7 @@ export const services_array = [
     {id: 4, value: interior_designs, alt: 'Интерьерное оформление', href: '/pages/services/interior-designs'},
     {id: 5, value: volumetric_letters, alt: 'Обьемные буквы', href: '/pages/services/volumetric-letters'},
     {id: 6, value: advertising_signs, alt: 'Рекламные штендеры', href: '/pages/services/advertising-signs'},
-    {id: 7, value: signs2, alt: 'Таблички', href: '/pages/services/signs'},
+    {id: 7, value: tables, alt: 'Таблички', href: '/pages/services/tables'},
     {id: 8, value: life_figures, alt: 'Ростовые фигуры', href: '/pages/services/signs'},
     {id: 9, value: advertising_stands, alt: 'Рекламные стойки', href: '/pages/services/signs'},
     {id: 10, value: exhibition_stands, alt: 'Выставочные стенды', href: '/pages/services/signs'},
