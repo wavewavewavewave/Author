@@ -77,8 +77,8 @@ export const nav_array = [
 export const services_array = [
     {id: 0, value: light_boxes, alt: 'Световые короба', href: '/pages/services/light-boxes'},
     {id: 1, value: signs, alt: 'Вывески', href: '/pages/services/signs'},
-    {id: 2, value: large_format_printing, alt: 'Широкоформатная печать', href: '/pages/services/signs'},
-    {id: 3, value: roof_installations, alt: 'Крышные установки', href: '/pages/services/signs'},
+    {id: 2, value: large_format_printing, alt: 'Широкоформатная печать', href: '/pages/services/large-format-printing'},
+    {id: 3, value: roof_installations, alt: 'Крышные установки', href: '/pages/services/roof-installations'},
     {id: 4, value: interior_designs, alt: 'Интерьерное оформление', href: '/pages/services/signs'},
     {id: 5, value: volumetric_letters, alt: 'Обьемные буквы', href: '/pages/services/signs'},
     {id: 6, value: advertising_signs, alt: 'Рекламные штендеры', href: '/pages/services/signs'},
@@ -97,19 +97,6 @@ export const services_array = [
     {id: 19, value: souvenir_products, alt: 'Сувенирная продукция', href: '/pages/services/signs'},
     {id: 20, value: design_services, alt: 'Услуги дизайна', href: '/pages/services/signs'},
 ]
-export const light_boxes_service_arr = [
-    {id: 0, value: 'Лайтбоксы'},
-    {id: 1, value: 'Тонкие световые короба'},
-    {id: 2, value: 'Короба с тканевым лицом'},
-    {id: 3, value: 'Короба с инкрустрацией'},
-    {id: 4, value: 'Двухсторонние короба'},
-    {id: 5, value: 'Интерьерные короба'},
-    {id: 6, value: 'Композитные короба'},
-    {id: 7, value: 'Акриловые короба'},
-    {id: 8, value: 'Короба из поликорбоната'},
-    {id: 9, value: 'Фигурные короба'},
-    {id: 10, value: 'Световой короб для кафе'},
-    {id: 11, value: 'Световой короб для магазина'},
-    {id: 12, value: 'Уличные рекламные короба'},
-    {id: 13, value: 'Световой короб для салона красоты'},
-]
+
+
+
