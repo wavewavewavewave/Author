@@ -7,7 +7,7 @@ import'./Logo.css'
 const Logo = ({services}) => {
     return (
         <>
-            <a className={'nav__logo'}>
+            <a className={'nav__logo'} href={'/'}>
                 <Image src={services === true ? color_logo : logo} alt={'Logo'} />
             </a>
         </>

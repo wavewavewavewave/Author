@@ -13,6 +13,7 @@ const Nav = ({closeMenuOnMobile, toggleMenu, services}) => {
                         <a className={index === nav_array.length - 1 ? '' : 'nav__link'}
                            style={services === true ? {color: 'black'} : {color: 'white'}}
                            onClick={closeMenuOnMobile}
+                           href={item.href}
                         >
                             {item.value}
                         </a>

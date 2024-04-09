@@ -68,20 +68,20 @@ export const payments_icon = [
     {id: 7, value: sber, alt: 'Сбер'}
 ]
 export const nav_array = [
-    {id: 0, value: 'О нас'},
-    {id: 1, value: 'Портфолио'},
-    {id: 2, value: 'Услуги'},
-    {id: 3, value: 'Контакты'},
-    {id: 4, value: 'Позвонить'},
+    {id: 0, value: 'О нас', href: '/pages/about'},
+    {id: 1, value: 'Портфолио', href: '/pages/about'},
+    {id: 2, value: 'Услуги', href: '/pages/about'},
+    {id: 3, value: 'Контакты', href: '/pages/about'},
+    {id: 4, value: 'Позвонить', href: '/pages/about'},
 ]
 export const services_array = [
     {id: 0, value: light_boxes, alt: 'Световые короба', href: '/pages/services/light-boxes'},
     {id: 1, value: signs, alt: 'Вывески', href: '/pages/services/signs'},
     {id: 2, value: large_format_printing, alt: 'Широкоформатная печать', href: '/pages/services/large-format-printing'},
     {id: 3, value: roof_installations, alt: 'Крышные установки', href: '/pages/services/roof-installations'},
-    {id: 4, value: interior_designs, alt: 'Интерьерное оформление', href: '/pages/services/signs'},
-    {id: 5, value: volumetric_letters, alt: 'Обьемные буквы', href: '/pages/services/signs'},
-    {id: 6, value: advertising_signs, alt: 'Рекламные штендеры', href: '/pages/services/signs'},
+    {id: 4, value: interior_designs, alt: 'Интерьерное оформление', href: '/pages/services/interior-designs'},
+    {id: 5, value: volumetric_letters, alt: 'Обьемные буквы', href: '/pages/services/volumetric-letters'},
+    {id: 6, value: advertising_signs, alt: 'Рекламные штендеры', href: '/pages/services/advertising-signs'},
     {id: 7, value: signs2, alt: 'Таблички', href: '/pages/services/signs'},
     {id: 8, value: life_figures, alt: 'Ростовые фигуры', href: '/pages/services/signs'},
     {id: 9, value: advertising_stands, alt: 'Рекламные стойки', href: '/pages/services/signs'},
