@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update roof-installations page, refactor code">
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="refactor code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,9 @@
       <workItem from="1712236501338" duration="190000" />
       <workItem from="1712240501768" duration="590000" />
       <workItem from="1712309119558" duration="6041000" />
-      <workItem from="1712570863339" duration="13656000" />
+      <workItem from="1712570863339" duration="13716000" />
+      <workItem from="1712589987195" duration="44000" />
+      <workItem from="1712650859377" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -282,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712585613504</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="refactor code">
+      <created>1712589755338</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712589755338</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +312,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create Clients block" />
     <MESSAGE value="create Footer block" />
-    <MESSAGE value="refactor code" />
     <MESSAGE value="save commit, work on adaptive" />
     <MESSAGE value="import services images" />
     <MESSAGE value="create Light Boxes page" />
@@ -315,6 +322,7 @@
     <MESSAGE value="update light-boxes page" />
     <MESSAGE value="update signs page" />
     <MESSAGE value="update roof-installations page, refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update roof-installations page, refactor code" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
