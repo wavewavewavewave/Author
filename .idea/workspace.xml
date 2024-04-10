@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create interior-designs, volumetric-letters, advertising-signs pages">
-      <change afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Tables/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/tables/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/services/tables/tables.module.css" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="create tables page">
+      <change afterPath="$PROJECT_DIR$/src/app/components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/TaplinkButton/Taplink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/TaplinkButton/TaplinkButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/Constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/lightBoxes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +128,8 @@
       <workItem from="1712570863339" duration="13716000" />
       <workItem from="1712589987195" duration="44000" />
       <workItem from="1712650859377" duration="1099000" />
+      <workItem from="1712673355596" duration="201000" />
+      <workItem from="1712752489056" duration="9666000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>

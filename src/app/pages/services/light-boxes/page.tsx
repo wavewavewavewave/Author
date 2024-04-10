@@ -6,9 +6,16 @@ import arrow from '../../../assets/Vector.svg'
 import cat from '../../../assets/Pages/Light-boxes/Group 7.svg'
 import Image from "next/image";
 import {light_boxes_service_arr} from "../../../constants/PagesConstants/Light-boxes/constants";
+import TaplinkButton from "../../../components/TaplinkButton/TaplinkButton";
+import Button from "../../../components/Button/Button";
 
 const LightBoxes = () => {
     const [isHovered, setIsHovered] = useState(null);
+    const [click, setClick] = useState(false)
+
+    const onClickHandler = () => {
+        setClick(true)
+    }
 
     const onMouseEnterHandler = (id) => {
         setIsHovered(id)
@@ -32,13 +39,14 @@ const LightBoxes = () => {
                             >
                                 <span className={styles.text}>{box.value}</span>
                                 <Image src={arrow} alt={'Стрелка'} className={styles.image_style}/>
-                                <Image src={box.image} alt={'Изображение товара'} className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
+                                <Image src={box.image} alt={'Изображение товара'}
+                                       className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
                             </div>
                         </div>
                     ))}
-                    <button className={styles.no_background}>
-                        <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
-                    </button>
+                </div>
+                <div style={{display: 'flex', justifyContent: 'center', marginTop: '100px'}}>
+                    <Button/>
                 </div>
             </div>
         </div>
@@ -46,3 +54,9 @@ const LightBoxes = () => {
 };
 
 export default LightBoxes;
+
+
+{/*<button className={styles.no_background} onClick={onClickHandler}>
+                    {!click ? <TaplinkButton/> : <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>}
+                </button>*/
+}
