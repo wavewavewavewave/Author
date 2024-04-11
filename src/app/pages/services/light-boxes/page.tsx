@@ -14,6 +14,7 @@ const LightBoxes = () => {
     const [isHovered, setIsHovered] = useState(null);
     const [click, setClick] = useState(false)
     const marginTop = 50
+    const marginLeft = 480
 
     const onClickHandler = () => {
         setClick(!click)
@@ -60,13 +61,10 @@ const LightBoxes = () => {
                     <TaplinkButton/>
                 </button>
             ) : (
-                <Contact src={cat} onCloseHandler={onCloseHandler} style={marginTop}/>
+                <Contact src={cat} onCloseHandler={onCloseHandler} marginTop={marginTop} marginLeft={marginLeft}/>
             )}
         </div>
     );
 };
 
 export default LightBoxes;
-
-/*
- ${isContactBlockVisible ? styles.visible : ''}`*/

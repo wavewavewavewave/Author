@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="refactore code">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Interior-designs/специалист5 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Large-printing/специалист3 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Roof-installations/специалист4 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/assets/Pages/Signs/специалист2 1.svg" afterDir="false" />
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update signs page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Contact/Contact.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Contact/contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Contact/contact.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/constants/PagesConstants/Large-format-printing/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Large-format-printing/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/signs.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,7 @@
       <workItem from="1712650859377" duration="1099000" />
       <workItem from="1712673355596" duration="201000" />
       <workItem from="1712752489056" duration="10004000" />
-      <workItem from="1712821088091" duration="16942000" />
+      <workItem from="1712821088091" duration="18942000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -332,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712841369875</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update signs page">
+      <created>1712843343460</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712843343460</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,13 +367,13 @@
     <MESSAGE value="save commit" />
     <MESSAGE value="refactor" />
     <MESSAGE value="update light-boxes page" />
-    <MESSAGE value="update signs page" />
     <MESSAGE value="update roof-installations page, refactor code" />
     <MESSAGE value="refactor code" />
     <MESSAGE value="create interior-designs, volumetric-letters, advertising-signs pages" />
     <MESSAGE value="update pages" />
     <MESSAGE value="update light box page" />
     <MESSAGE value="refactore code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactore code" />
+    <MESSAGE value="update signs page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update signs page" />
   </component>
 </project>

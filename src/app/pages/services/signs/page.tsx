@@ -15,6 +15,7 @@ const Signs = () => {
     const [isHovered, setIsHovered] = useState(null);
     const [click, setClick] = useState(false)
     const marginTop = 33
+    const marginLeft = 490
 
     const onClickHandler = () => {
         setClick(!click)
@@ -60,7 +61,7 @@ const Signs = () => {
                     <TaplinkButton/>
                 </button>
             ) : (
-                <Contact src={cat} onCloseHandler={onCloseHandler} style={marginTop}/>
+                <Contact src={cat} onCloseHandler={onCloseHandler} marginTop={marginTop} marginLeft={marginLeft}/>
             )}
         </div>
     );

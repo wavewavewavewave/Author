@@ -1,40 +1,33 @@
+import image1 from '../../../assets/Pages/Large-printing/shirokoformatnaya-pechat-na-tkani_1-new 1.jpg'
+import image2 from '../../../assets/Pages/Large-printing/image 188.jpg'
+import image3 from '../../../assets/Pages/Large-printing/image 189.jpg'
+import image4 from '../../../assets/Pages/Large-printing/image 190.jpg'
+import image5 from '../../../assets/Pages/Large-printing/image 191.jpg'
+import image6 from '../../../assets/Pages/Large-printing/image 196.jpg'
+import image7 from '../../../assets/Pages/Large-printing/image 193.jpg'
+import image8 from '../../../assets/Pages/Large-printing/банер др 1.jpg'
+import image9 from '../../../assets/Pages/Large-printing/image 195.jpg'
+import image10 from '../../../assets/Pages/Large-printing/image 192.jpg'
+import image11 from '../../../assets/Pages/Large-printing/image 197.jpg'
+import image12 from '../../../assets/Pages/Large-printing/image 194.jpg'
+import image13 from '../../../assets/Pages/Large-printing/печать на самоклейке 1.jpg'
+import image14 from '../../../assets/Pages/Large-printing/image 199.jpg'
+import image15 from '../../../assets/Pages/Large-printing/image 198.jpg'
+
 export const format_printing_arr = [
-    {id: 0, value: 'Широкоформатная печать на ткани'},
-    {id: 1, value: 'Широкоформатная печать на бумаге'},
-    {id: 2, value: 'Широкоформатная печать на ПВХ'},
-    {id: 3, value: 'Широкоформатная печать на холсте'},
-    {id: 4, value: 'Широкоформатная УФ печать'},
-    {id: 5, value: 'Широкоформатная печать баннеров'},
-    {id: 6, value: 'Печать на прозрачной пленке'},
-    {id: 7, value: 'Печать на пленке Oracal'},
-    {id: 8, value: 'Печать на светоотражающей пленке'},
-    {id: 9, value: 'Печать на транслюцентной пленке'},
-    {id: 10, value: 'Печать на виниловой пленке'},
-    {id: 11, value: 'Печать на самоклеющейся пленке'},
-    {id: 12, value: 'Печать на строительной сетке'},
-    {id: 13, value: 'Печать на баннерной сетке'},
-    {id: 14, value: 'Двухсторонняя печать'},
-    {id: 15, value: 'Печать щитов'},
-    {id: 16, value: 'Печать афиш'},
-    {id: 17, value: 'Печать фотообоев'},
-    {id: 18, value: 'Печать растяжек'},
-    {id: 19, value: 'Срочная печать баннеров'},
-    {id: 20, value: 'Печать больших баннеров'},
-    {id: 21, value: 'Печать баннера на День Рождение'},
-    {id: 22, value: 'Интерьерная печать'},
-    {id: 23, value: 'Печать плакатов'},
-    {id: 24, value: 'Печать фото плакатов'},
-    {id: 25, value: 'Печать самоклеющихся плакатов'},
-    {id: 26, value: 'Печать плакатов на пластике'},
-    {id: 27, value: 'УФ печать на акриле'},
-    {id: 28, value: 'УФ печать на стекле'},
-    {id: 29, value: 'УФ печать на металле'},
-    {id: 30, value: 'УФ печать на композитах'},
-    {id: 31, value: 'УФ печать на гофрокартоне'},
-    {id: 32, value: 'УФ печать на дереве'},
-    {id: 33, value: 'УФ печать на пенокартоне'},
-    {id: 34, value: 'УФ печать на керамической плитке'},
-    {id: 35, value: 'УФ печать на пластиковых носителях'},
-    {id: 36, value: 'УФ печать на коже'},
-    {id: 37, value: 'Срочная широкоформатная печать'},
+    {id: 0, value: 'Широкоформатная печать на ткани', image: image1},
+    {id: 1, value: 'Широкоформатная печать на бумаге', image: image2},
+    {id: 2, value: 'Широкоформатная печать на ПВХ', image: image3},
+    {id: 3, value: 'Широкоформатная печать на холсте', image: image4},
+    {id: 4, value: 'Широкоформатная печать баннеров', image: image5},
+    {id: 5, value: 'Печать на баннерной сетке', image: image6},
+    {id: 6, value: 'Печать фотообоев', image: image7},
+    {id: 7, value: 'Печать баннера на День Рождение', image: image8},
+    {id: 8, value: 'Интерьерная печать', image: image9},
+    {id: 9, value: 'Печать афиш', image: image10},
+    {id: 10, value: 'Печать растяжек', image: image11},
+    {id: 11, value: 'Печать плакатов', image: image12},
+    {id: 12, value: 'Печать на самоклеющейся пленке', image: image13},
+    {id: 13, value: 'Печать на флаговой ткани', image: image14},
+    {id: 14, value: 'УФ печать на любых материалах', image: image15},
 ]
