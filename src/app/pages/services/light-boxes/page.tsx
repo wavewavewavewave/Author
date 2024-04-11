@@ -1,5 +1,5 @@
 'use client'
-import React, {useRef, useState} from 'react';
+import React, {useState} from 'react';
 import Header from "../../../components/Header/Header";
 import styles from './lightBoxes.module.css'
 import arrow from '../../../assets/Vector.svg'
@@ -7,20 +7,15 @@ import cat from '../../../assets/Pages/Light-boxes/специалист1 1.svg'
 import Image from "next/image";
 import {light_boxes_service_arr} from "../../../constants/PagesConstants/Light-boxes/constants";
 import TaplinkButton from "../../../components/TaplinkButton/TaplinkButton";
-import telegramIcon from '../../../assets/free-icon-telegram-2111646 2.svg'
-import viberIcon from '../../../assets/image 23.svg'
-import whatsupIcon from '../../../assets/image 24.svg'
-import closeIcon from '../../../assets/связь с менеджером закрытие.svg'
 import Button from "../../../components/Button/Button";
+import Contact from "../../../components/Contact/Contact";
 
 const LightBoxes = () => {
     const [isHovered, setIsHovered] = useState(null);
     const [click, setClick] = useState(false)
-    const [isContactBlockVisible, setIsContactBlockVisible] = useState(false);
 
     const onClickHandler = () => {
         setClick(!click)
-        setIsContactBlockVisible(!isContactBlockVisible);
     }
 
     const onCloseHandler = () => {
@@ -59,26 +54,12 @@ const LightBoxes = () => {
                     <Button>Заказать</Button>
                 </div>
             </div>
-            {click === false ? (
-                    <button className={styles.no_background} onClick={onClickHandler}>
-                        <TaplinkButton/>
-                    </button>
+            {!click ? (
+                <button className={styles.no_background} onClick={onClickHandler}>
+                    <TaplinkButton/>
+                </button>
             ) : (
-                <div className={styles.contact_block}>
-                    <button className={styles.iconViber}>
-                        <Image src={viberIcon} alt={'Вайбер'} width={40} height={40}/>
-                    </button>
-                    <button className={styles.iconWhatsUp}>
-                        <Image src={whatsupIcon} alt={'Вотсап'} width={40} height={40}/>
-                    </button>
-                    <button className={styles.iconTelegram}>
-                        <Image src={telegramIcon} alt={'Телеграмм'} width={40} height={40}/>
-                    </button>
-                    <button className={styles.closeIcon} onClick={onCloseHandler}>
-                        <Image src={closeIcon} alt={'Закрытие'} width={150} height={150}/>
-                    </button>
-                    <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
-                </div>
+                <Contact src={cat} onCloseHandler={onCloseHandler}/>
             )}
         </div>
     );
