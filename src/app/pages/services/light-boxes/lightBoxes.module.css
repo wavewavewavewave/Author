@@ -1,7 +1,6 @@
 .container_page {
     width: 100%;
     min-height: 100%;
-    padding-bottom: 50px;
     position: relative;
 }
 .container_boxes {
@@ -49,8 +48,9 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    bottom: -300px;
+    bottom: -350px;
     right: 90px;
+    height: 300px;
 }
 .imageBlock {
     position: absolute;
@@ -59,6 +59,88 @@
 }
 .imageBlockEnter {
     position: absolute;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.contact_block {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    animation: fade-in 0.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.iconViber {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.iconWhatsUp {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 295px;
+    margin-top: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.iconTelegram {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.closeIcon {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 480px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.iconViber:hover {
+    width: 55px;
+    height: 55px;
+    margin-left: 255px;
+}
+.iconWhatsUp:hover {
+    width: 55px;
+    height: 55px;
+    margin-left: 290px;
+}
+.iconTelegram:hover {
+    width: 55px;
+    height: 55px;
+    margin-left: 320px;
+}
+.closeIcon:hover {
+    z-index: auto;
 }
 
 @media screen and (max-width: 670px) {

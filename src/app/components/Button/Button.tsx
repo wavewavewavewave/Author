@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css'
 
-const Button = () => {
+const Button = ({children}) => {
     return (
         <div className="btn-container">
-            <button className="btn btn-primary" type="button">Заказать</button>
+            <button className="btn btn-primary" type="button">{children}</button>
         </div>
     );
 };
