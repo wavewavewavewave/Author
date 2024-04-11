@@ -3,17 +3,31 @@ import React, {useState} from 'react';
 import styles from './signs.module.css'
 import arrow from '../../../assets/Vector.svg'
 import Header from "../../../components/Header/Header";
-import cat from '../../../assets/Pages/Signs/Group 8.svg'
+import cat from '../../../assets/Pages/Signs/специалист2 1.svg'
 import Image from "next/image";
 import {signs_array} from "../../../constants/PagesConstants/Signs/constants";
+import Button from "../../../components/Button/Button";
+import TaplinkButton from "../../../components/TaplinkButton/TaplinkButton";
+import Contact from "../../../components/Contact/Contact";
 
 
 const Signs = () => {
     const [isHovered, setIsHovered] = useState(null);
+    const [click, setClick] = useState(false)
+    const marginTop = 33
+
+    const onClickHandler = () => {
+        setClick(!click)
+    }
+
+    const onCloseHandler = () => {
+        setClick(false)
+    }
 
     const onMouseEnterHandler = (id) => {
         setIsHovered(id)
     }
+
     const onMouseLeaveHandler = () => {
         setIsHovered(null)
     }
@@ -31,15 +45,23 @@ const Signs = () => {
                                  onMouseLeave={() => onMouseLeaveHandler()}>
                                 <span className={styles.text}>{box.value}</span>
                                 <Image src={arrow} alt={'Стрелка'} className={styles.image_style}/>
-                                <Image src={box.image} alt={'Изображение товара'} className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
+                                <Image src={box.image} alt={'Изображение товара'}
+                                       className={isHovered === null || isHovered !== box.id ? styles.imageBlock : styles.imageBlockEnter}/>
                             </div>
                         </div>
                     ))}
-                    <button className={styles.no_background}>
-                        <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
-                    </button>
+                </div>
+                <div className={styles.button}>
+                    <Button>Заказать</Button>
                 </div>
             </div>
+            {!click ? (
+                <button className={styles.no_background} onClick={onClickHandler}>
+                    <TaplinkButton/>
+                </button>
+            ) : (
+                <Contact src={cat} onCloseHandler={onCloseHandler} style={marginTop}/>
+            )}
         </div>
     );
 };

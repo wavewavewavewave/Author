@@ -6,7 +6,7 @@ import whatsupIcon from "../../assets/image 24.svg";
 import telegramIcon from "../../assets/free-icon-telegram-2111646 2.svg";
 import closeIcon from "../../assets/связь с менеджером закрытие.svg";
 
-const Contact = ({src, onCloseHandler}) => {
+const Contact = ({src, onCloseHandler, style}) => {
     return (
         <div className={styles.contact_block}>
             <button className={styles.iconViber}>
@@ -21,7 +21,7 @@ const Contact = ({src, onCloseHandler}) => {
             <button className={styles.closeIcon} onClick={onCloseHandler}>
                 <Image src={closeIcon} alt={'Закрытие'} width={150} height={150}/>
             </button>
-            <Image src={src} alt={'Кот контакт'} className={styles.image_cat}/>
+            <Image src={src} alt={'Кот контакт'} className={styles.image_cat} style={{marginTop: style}} width={750} height={290}/>
         </div>
     );
 };

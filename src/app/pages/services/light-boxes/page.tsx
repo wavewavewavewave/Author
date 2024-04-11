@@ -13,6 +13,7 @@ import Contact from "../../../components/Contact/Contact";
 const LightBoxes = () => {
     const [isHovered, setIsHovered] = useState(null);
     const [click, setClick] = useState(false)
+    const marginTop = 50
 
     const onClickHandler = () => {
         setClick(!click)
@@ -59,7 +60,7 @@ const LightBoxes = () => {
                     <TaplinkButton/>
                 </button>
             ) : (
-                <Contact src={cat} onCloseHandler={onCloseHandler}/>
+                <Contact src={cat} onCloseHandler={onCloseHandler} style={marginTop}/>
             )}
         </div>
     );
