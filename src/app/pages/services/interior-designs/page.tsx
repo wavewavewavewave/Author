@@ -4,11 +4,25 @@ import styles from './interior.module.css'
 import Header from "../../../components/Header/Header";
 import Image from "next/image";
 import arrow from "../../../assets/Vector.svg";
-import cat from "../../../assets/Pages/Interior-designs/Group 11.svg";
+import cat from "../../../assets/Pages/Interior-designs/специалист5 1.svg";
 import {interior_designs_arr} from "../../../constants/PagesConstants/Interior-designs/constants";
+import Button from "../../../components/Button/Button";
+import TaplinkButton from "../../../components/TaplinkButton/TaplinkButton";
+import Contact from "../../../components/Contact/Contact";
 
 const InteriorDesigns = () => {
     const [isHovered, setIsHovered] = useState(null);
+    const [click, setClick] = useState(false)
+    const marginTop = 50
+    const marginLeft = 480
+
+    const onClickHandler = () => {
+        setClick(!click)
+    }
+
+    const onCloseHandler = () => {
+        setClick(false)
+    }
 
     const onMouseEnterHandler = (id) => {
         setIsHovered(id)
@@ -16,6 +30,7 @@ const InteriorDesigns = () => {
     const onMouseLeaveHandler = () => {
         setIsHovered(null)
     }
+
     return (
         <div className={styles.container_page}>
             <Header services={true}/>
@@ -35,11 +50,18 @@ const InteriorDesigns = () => {
                             </div>
                         </div>
                     ))}
-                    <button className={styles.no_background}>
-                        <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
-                    </button>
+                </div>
+                <div className={styles.button}>
+                    <Button>Заказать</Button>
                 </div>
             </div>
+            {!click ? (
+                <button className={styles.no_background} onClick={onClickHandler}>
+                    <TaplinkButton/>
+                </button>
+            ) : (
+                <Contact src={cat} onCloseHandler={onCloseHandler} marginTop={marginTop} marginLeft={marginLeft}/>
+            )}
         </div>
     );
 };
