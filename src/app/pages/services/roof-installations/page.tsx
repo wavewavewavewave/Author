@@ -4,11 +4,25 @@ import Header from "../../../components/Header/Header";
 import styles from './roof.module.css'
 import Image from "next/image";
 import arrow from "../../../assets/Vector.svg";
-import cat from "../../../assets/Pages/Roof-installations/Group 10.svg";
+import cat from "../../../assets/Pages/Roof-installations/специалист4 1.svg";
 import {roof_installations_arr} from "../../../constants/PagesConstants/Roof-installations/constants";
+import Button from "../../../components/Button/Button";
+import TaplinkButton from "../../../components/TaplinkButton/TaplinkButton";
+import Contact from "../../../components/Contact/Contact";
 
 const RoofInstallations = () => {
     const [isHovered, setIsHovered] = useState(null);
+    const [click, setClick] = useState(false)
+    const marginTop = 50
+    const marginLeft = 480
+
+    const onClickHandler = () => {
+        setClick(!click)
+    }
+
+    const onCloseHandler = () => {
+        setClick(false)
+    }
 
     const onMouseEnterHandler = (id) => {
         setIsHovered(id)
@@ -37,10 +51,17 @@ const RoofInstallations = () => {
                         </div>
                     ))}
                 </div>
+                <div className={styles.button}>
+                    <Button>Заказать</Button>
+                </div>
             </div>
-            <button className={styles.no_background}>
-                <Image src={cat} alt={'Кот контакт'} className={styles.image_cat}/>
-            </button>
+            {!click ? (
+                <button className={styles.no_background} onClick={onClickHandler}>
+                    <TaplinkButton/>
+                </button>
+            ) : (
+                <Contact src={cat} onCloseHandler={onCloseHandler} marginTop={marginTop} marginLeft={marginLeft}/>
+            )}
         </div>
     );
 };

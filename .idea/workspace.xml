@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update signs page">
+    <list default="true" id="a07cfb69-84a5-4ec0-b4a7-3b85530c66a7" name="Changes" comment="update large-format-printing page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Contact/contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Contact/contact.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants/PagesConstants/Large-format-printing/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants/PagesConstants/Large-format-printing/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/formatPrinting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/large-format-printing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/light-boxes/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/signs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/roof-installations/roof.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +127,8 @@
       <workItem from="1712650859377" duration="1099000" />
       <workItem from="1712673355596" duration="201000" />
       <workItem from="1712752489056" duration="10004000" />
-      <workItem from="1712821088091" duration="18942000" />
+      <workItem from="1712821088091" duration="19306000" />
+      <workItem from="1712930644648" duration="1548000" />
     </task>
     <task id="LOCAL-00001" summary="save commit">
       <created>1711108077989</created>
@@ -337,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712843343460</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update large-format-printing page">
+      <created>1712845464744</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712845464744</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +377,7 @@
     <MESSAGE value="update light box page" />
     <MESSAGE value="refactore code" />
     <MESSAGE value="update signs page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update signs page" />
+    <MESSAGE value="update large-format-printing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update large-format-printing page" />
   </component>
 </project>
