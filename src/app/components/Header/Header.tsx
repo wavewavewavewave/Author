@@ -2,11 +2,12 @@
 import React, {useState} from 'react';
 import Logo from "../Logo/Logo";
 import './Header.css'
-import {IoMenu} from "react-icons/io5";
+// @ts-ignore
+import {IoMenu} from "react-icons/io5/";
 import Nav from "../Nav/Nav";
 
 
-const Header = ({services}) => {
+const Header = ({services}: any) => {
     const [showMenu, setShowMenu] = useState(false);
 
     const toggleMenu = () => {
